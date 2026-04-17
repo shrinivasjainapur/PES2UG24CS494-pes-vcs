@@ -24,6 +24,8 @@
 #include <time.h>
 #include <unistd.h>
 #include <fcntl.h>
+char author[256];
+char message[4096];
 
 // Forward declarations (implemented in object.c)
 int object_write(ObjectType type, const void *data, size_t len, ObjectID *id_out);
