@@ -6,7 +6,6 @@
 // hash (directory sharding).
 //
 // PROVIDED functions: compute_hash, object_path, object_exists, hash_to_hex, hex_to_hash
-// TODO functions: object_write, object_read
 
 #include "pes.h"
 #include <stdio.h>
