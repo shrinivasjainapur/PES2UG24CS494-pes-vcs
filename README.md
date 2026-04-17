@@ -4,7 +4,6 @@
 
 **Platform:** Ubuntu 22.04
 
----
 
 ## Getting Started
 
