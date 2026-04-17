@@ -16,7 +16,8 @@
 #include <fcntl.h>
 #include <unistd.h>
 #include <openssl/evp.h>
-
+#define COMMIT_AUTHOR_MAX 256
+#define COMMIT_MESSAGE_MAX 4096
 // ─── PROVIDED ────────────────────────────────────────────────────────────────
 
 void hash_to_hex(const ObjectID *id, char *hex_out) {
