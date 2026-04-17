@@ -6,6 +6,7 @@
 
 #ifndef INDEX_H
 #define INDEX_H
+#include <stddef.h>
 
 #include "pes.h"
 
